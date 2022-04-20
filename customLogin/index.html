@@ -1,0 +1,37 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Restricted Access</title>    
+    <link rel="stylesheet" type="text/css" href="style.css">    
+</head>    
+<script>
+function forgotPassword() {
+  alert("Please contact the support desk!");
+}
+</script>
+
+<body>    
+    <h2>Restricted Access</h2><br>    
+    <div class="login">    
+    <form method="post">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="username" id="username" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="password" name="password" id="password" placeholder="Password">    
+        <br><br>    
+        <input type="submit" value="Login" name="btnLogin" id="submit"/>    
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        <p id="forgot" onclick="forgotPassword()">Forgot Password?</p>    
+    </form>     
+</div>    
+<img src="Cloud_Ace_Final.png" class="center"/>
+</body>    
+</html>   
