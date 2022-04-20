@@ -1,4 +1,5 @@
 FROM python:3.7.13-slim-bullseye
+#checkov:skip=CKV_DOCKER_9:Accepted risk of using APT
 RUN apt update && \
     apt-get install python3-dev python3-pip libssl-dev sudo curl \
         -y --no-install-recommends
